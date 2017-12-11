@@ -37,7 +37,7 @@ Note: When you're done, submit a PR.
 
 ```ruby
 get '/horses' do
-  @name = "Mr. Ed"
+  name = "Mr. Ed"
   erb :index
 end
 ```
@@ -83,4 +83,6 @@ end
   A model provides a reference to an object that represents a row of a table within our web app.
 
 20. What is the difference between `#new` and `#create`?
+
   New creates an instance of an object but does not save it to the databse. Create does the creation and the saving to a database.
+

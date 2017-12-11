@@ -42,7 +42,7 @@ Student belongs to Teacher, Teacher has many Students
 6. Define foreign key, primary key, and schema.
 A foreign key is a field in a table that identifies a row in another table. A foreign key is placed on the table that belongs to another table. So if a Director has many Movies, the Director ID Column would be the foreign key associating the two tables and would need to be added to the Movies table.  A schema defines tables and indexes.
 
-A primary Key is the foreign key on another table. So Director ID is a primary  key that lives in the Director Table, but it is the foreign key that is added as a column to the Movi Tagble.
+A primary Key is the foreign key on another table. So Director ID is a primary  key that lives in the Director Table, but it is the foreign key that is added as a column to the Movie Table.
 
 7. Describe the relationship between a foreign key on one table and a primary key on another table. A foreign key in one table is the primary key in another table
 
