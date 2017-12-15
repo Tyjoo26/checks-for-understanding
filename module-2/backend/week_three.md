@@ -30,6 +30,6 @@ Form for is a form action that generates a form. It assigns the instance variabl
 10. How does `form_for` know where to submit the user's input?
 Form for knows where to submit the users input by the instance variables beign passed in the top of the form for.
 11. Create a form using a `form_for` helper to create a new `Horse`.
-<%= form_for @horse do |f| =>
+<%= form_for (@horse) do |f| %>
 12. Why do we want to validate our models?
 Our models need validation to ensure that data is being passed in an acceptable manner. For example, when we validate the presence of a form field, our model will not accept empty data fields when submitting infromation to the database.
